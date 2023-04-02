@@ -165,7 +165,6 @@ const MItemEditComponent = (props) => {
         fetchPost();
     }, [pathname]);
     const settingJquery = () => {
-
         $('.ql-editor').attr('style', 'max-height:300px !important');
         $('.ql-editor').attr('style', 'min-height:300px !important');
     }
